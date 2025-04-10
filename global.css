@@ -1,0 +1,14 @@
+*{
+    font-family: 'Karla', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --text: hsl(186, 15%, 59%);
+    --background: hsl(148, 38%, 91%);
+    --card-color: hsl(0, 0%, 100%);
+    --input-color:  hsl(169, 82%, 27%);
+    --dark-gray:  hsl(187, 24%, 22%);
+}

@@ -1,0 +1,169 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background); /* Se você tiver uma variável --background */
+}
+
+.container {
+    background-color: var(--card-color);
+    width: 600px;
+    padding: 30px;
+    border-radius: 15px;
+    margin: 30px 0;
+}
+
+.p {
+    padding: 10px; 
+}
+
+.name {
+    display: flex; 
+    justify-content: space-between; 
+}
+
+.name-input {
+    width: 49%; 
+}
+
+.terms {
+    display: flex; 
+    align-items: center; 
+    padding-top: 40px ;
+}
+
+.terms label {
+    margin-left: 10px; 
+}
+
+input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 100%;
+}
+
+h1{
+    padding: 10px 20px 20px 0;
+    color: var(--dark-gray);
+}
+
+p{
+    padding: 10px 0;
+}
+
+.checkbox{
+    width: initial;
+    accent-color: var(--input-color);
+    cursor: pointer;
+    align-self: center;
+}
+
+.query-type-button{
+    width: initial;
+}
+
+button{
+    width: 100%;
+    background-color: var(--input-color);
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    margin: 40px 0 20px;
+    cursor: pointer;
+    font-size: large;
+}
+
+.message{
+    padding: 30px;
+}
+
+.label-radio{
+    align-self: center;
+}
+
+.query{
+    display: flex;
+    position: relative;
+}
+
+.query-type-button{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.label-radio{
+    margin-left: 10px;
+}
+
+.label{
+    height: 40px;
+    border-radius: 6px;
+    border: 1px solid black;
+    display: flex;
+    align-content: center;
+    width: 49%;
+}
+
+.label:first-child{
+    margin-right: 10px;
+}
+
+.input-empty{
+    border: 1px solid red;
+}
+
+.red{
+    color: red;
+}
+
+textarea{
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 100%;
+}
+
+textarea:hover{
+    border: 2px solid var(--input-color)
+}
+
+button:hover{
+    background-color: var(--dark-gray);
+}
+
+input:hover{
+    border: 2px solid var(--input-color);
+}
+
+input:active{
+    border: 2px solid var(--input-color);
+}
+
+div.label:hover{
+    background-color: var(--background);
+    border: 2px solid var(--input-color);
+}
+
+@media (max-width: 380px) {
+    div.name{
+        display: initial;
+    }
+    .name-input{
+        width: initial;
+    }
+
+    div.query{
+        display: initial;
+    }
+    .label{
+        width: initial;
+    }
+    .label:first-child{
+        margin-right: initial;
+        margin-bottom: 10px;
+    }
+}
+
+
